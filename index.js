@@ -17,7 +17,7 @@ DbConn();
 // ✅ Middlewares
 app.use(
   cors({
-    origin: "https://mern-frontend-three.vercel.app", // Allow frontend to make requests
+    origin: "https://mern-frontend-three.vercel.app/", // Allow frontend to make requests
     credentials: true, // Allow cookies and authentication headers
   })
 );
